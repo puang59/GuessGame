@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: 1450px 800px;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+.guess-button {
+    background-color: #9d8aff;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.refresh-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 45%;
+}
+.input-sec { 
+    position: absolute;
+    left: 30%;
+    top: 45%;
+}
+.info {
+    font-family: 'Roboto', sans-serif;
+    /*left: 30%;
+    top: 65%;*/
+}
+.guess-text {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+.random-text {
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+.status-text {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+.your-guess {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 63%;
+}
+.random-number { 
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 45%;
+    top: 63%;
+}
+.remark-message {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 60%;
+    top: 63%;
+}
+.instruction {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+}
+.gh-link{ 
+    position: absolute;
+    top: 90%;
+    left: 46%;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-decoration: none;
+}
