@@ -26,7 +26,7 @@ guessBtn.addEventListener('click', function () {
     //const numberGenerate = document.createElement("H3");
     // const randoNumber = document.createTextNode(getRandomInt(1));
     // numberGenerate.appendChild(randoNumber);
-    const gen_num = String(getRandomInt(11));
+    const gen_num = String(getRandomInt(6));
     randomNumber.append(gen_num);
 
     // to check if they are same or not

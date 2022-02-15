@@ -12,8 +12,8 @@ body {
     background-color: black;
     color: white;
     background-image: url('bg.png');
-    background-repeat: no-repeat;
-    background-size: 1450px 800px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .heading {
@@ -106,4 +106,85 @@ body {
     font-family: 'Roboto', sans-serif;
     color:white;
     text-decoration: none;
+}
+@media screen and (max-width:640px),
+       screen and (max-height:600px){
+    * {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .heading {
+        font-size: 15px;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+    }
+    .instruction {
+        font-size: 10px;
+        position: absolute;
+        left: 23%;
+        top: 35%;
+    }
+    .input-sec { 
+        position: absolute;
+        left: 15%;
+        top: 40%;
+    }
+    .input-box { 
+        width: 285px;
+    }
+    .guess-button {
+        background-color: #9d8aff;
+        border: none;
+        color: white;
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    .refresh-button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5%;
+        margin-left: 5%;
+    }
+    .guess-text {
+        position: absolute;
+        left: 15%;
+        top: 60%;
+    }
+    .random-text {
+        position: absolute;
+        left: 65%;
+        top: 60%;
+    }
+    .status-text {
+        position: absolute;
+        left:15%;
+        top: 70%;
+    }
+    .random-number { 
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        left: 85%;
+        top: 63%;
+    }
+    .remark-message {
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        left: 15%;
+        top: 73%;
+    }
 }
